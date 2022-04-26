@@ -1,0 +1,53 @@
+Informal notes on corrections to the core data. This file is not read by the program.
+See the starlines.tweaks package for more information.
+
+These issues are often, but not always, related to multiplicity (double and multiple stars).
+
+Policy: on the scale used by the typical stick-line figures used to represent the constellations, 
+the detailed sub-structure of most double stars can be neglected.
+In that context, treating close pairs of objects as indistinguishable is almost always acceptable.
+
+
+List of problems that were found, in order of HR identifier:
+--------------------------------------------------------------
+
+301: ERROR IN THE CORE DATA! Replace with 1302. Should be a simple pair in Horologium.
+ 1326   Alp HorCD-42 1425  26967216710 155I:                 041041.2-423227041400.1-421740246.88-46.41 3.86  +1.10 +1.00 +0.59   K1III              +0.046-0.209 +.026+022                          *
+ 1302   Del HorCD-42 1400  26612216682                       040728.5-421516041050.6-415937246.50-47.02 4.93  +0.33 +0.07 +0.21   A9V                +0.196+0.063 +.012+037      193                 *
+  301 26    CetBD+00  174   6288109643  37     875           005840.1+004951010349.0+012200129.39-61.35 6.04  +0.27 +0.13         F1V                +0.122-0.042D+.024+006           3.4  16.0AB   3*
+
+545: CORRECTION: use the brighter 546 as a better choice. Double trouble.
+ 545  5Gam1AriBD+18  243  11503 92680        1507B Var?     014802.4+184821015331.8+191745142.55-41.20 4.83H                     B9V               v+0.078-0.112 +.026+004V     152  0.1   7.8AB   3*
+ 546  5Gam2AriBD+18  243  11502 92681        1507A Gam Ari  014802.4+184813015331.8+191737142.55-41.20 4.75H -0.04 -0.13 -0.05   A1pSi              +0.079-0.104 +.026-001V      63  0.1   7.8AB   3*
+
+681: Mira is a variable with large amplitude! It's missing from os-bright-star-catalog-hip.utf8. HD 14386, HIP 10826, HR 681.  Its HIP mag is 6.47 (the middle of the range)
+ 681 68Omi CetBD-03  353  14386129825    I   1778  Omi Cet  021417.6-032554021920.7-025839167.75-57.98 3.04  +1.42 +1.09 +1.90   M7IIIe+Bep        v-0.008-0.237 +.024+064V          7.3 118.7AC   4*
+
+1212: Correct os-bright to use the brighter HD=24555 HR=1212 instead! Double trouble.
+ 1211 32    EriBD-03  631  24554130805        2850B          034916.0-031454035417.4-025710192.09-40.10 6.14  +0.09 +0.07         A2V                +0.029+0.008 +.004+018V     180  1.5   6.8AB   3*
+ 1212 32    EriBD-03  631  24555130806    I   2850A          034916.1-031501035417.5-025717192.10-40.10 4.79  +0.94 +0.69 +0.40   G8III              +0.029+0.002 +.004+027SB   < 17  1.5   6.8AB   3*
+ os-bright has 32 Eri as HD=24554 HR=1211, but 1211 is too dim! It should really be using HD=24555 HR=1212   
+ 18255  03_54_17.4866130  -02_57_17.041447  1.0222892748  -0.0515698322   10.42    26.00    -0.23    27.1   0.66   0.55   0.79   0.89   1.03   1.2  4.46 1        G8III  0.672 C 03543-0257  24554 1211          32 Eri                Eri BHHAAAAACAAAAACBBBBBBBE-E-H 
+
+2890: CORRECTION: use the slightly brighter 2891 as the preferred choice. Double trouble.
+ 2890 66Alp GemBD+32 1581  60178 60198 287I   6175B          072813.0+320627073436.0+315319187.44 22.48 2.88  +0.04 +0.02         A2Vm               -0.172-0.099 +.067-001SB1O   30  0.9   2.0AB   6*
+ 2891 66Alp GemBD+32 1581  60179          I   6175A YY Gem   072813.0+320627073436.0+315318187.44 22.48 1.98  +0.03 +0.01 -0.01   A1V                -0.171-0.098 +.067+006SB1O   14  0.9   2.0AB   6*
+
+2472: ERROR IN THE CORE DATA! Replace with 2473.
+ 2472 NOVA 1903                                     DM Gem                                                                                                                                           *
+ 2473 27Eps GemBD+25 1406  48329 78682 254I   5381   3183    063746.7+251349064355.9+250752189.54  9.63 2.98  +1.40 +1.46 +0.61   G8Ib              e-0.006-0.013 +.017+010SB   < 17  6.0 110.3      *
+
+5834: Correct os-bright to use the brighter HR=5834 HD=139892 instead! Double trouble.
+ 5833  7Zet1CrBBD+37 2665 139891 64833        9737B          153536.2+365741153922.2+363812 58.70 53.41 6.00H                     B9V                -0.014-0.013 +.015-019       25  1.0   6.4      *
+ 5834  7Zet2CrBBD+37 2665 139892 64834        9737A          153536.6+365737153922.7+363809 58.70 53.41 5.07H -0.12 -0.47         B7V                -0.013-0.006 +.015-024SB2O  100  1.0   6.4      *
+ os-bright: HD=139891 HR=5833
+ 76669  15_39_22.6839465   36_38_08.981049  4.0988100422   0.6394158240    6.89   -14.82    -4.74   -19.1   0.34   0.43   0.52   0.43   0.56   1.1  4.64        B7V+... -0.103 C 15394+3638 139891 5833  ζ1 CrB   7 CrB                CrB BHHAAAAADAAAAADB-BBBBBEEE-H 
+
+5506: Correct os-bright to use the much brighter HD=129989 HR=5506 instead! Double trouble.
+ 5505 36Eps BooBD+27 2417 129988              9372B          144037.1+272947144459.2+270430 39.38 64.78 5.12H                     A2V                -0.050+0.021 +.016-023SB2   147  2.6   2.8AB   3*
+ 5506 36Eps BooBD+27 2417 129989 83500    I   9372A          144037.1+272945144459.2+270427 39.38 64.78 2.70H +0.97 +0.73 +0.52   K0-II-III          -0.049+0.021 +.016-017V          2.6   2.8AB   3*
+ 72105  14_44_59.2508361   27_04_27.025542  3.8614864893   0.4725334744   16.10   -50.95    21.07   -16.2   0.42   0.37   0.66   0.59   0.58   0.4  2.35             A0  0.966 C 14449+2704 129988 5505   ε Boo  36 Boo           Izar Boo BHHAAAAACAAAAACB-BBBBBEEEGH 
+
+7564: Chi Cyg is a variable HIP=97629 HD=187796. In HIP its Vmag is 7.91, its BSC mag is 4.23. This star is not in the constellation lines, so its not really needed for this project.
+ 7564   Chi CygBD+32 3593 187796 68943    I W       Chi Cyg  194643.2+323940195033.9+325451 68.54  3.28 4.23  +1.82 +0.96 +2.68   S6+/1e            v-0.027-0.040 +.012-002V?         5.2 158.0      *
+ 
