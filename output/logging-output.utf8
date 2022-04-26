@@ -1,0 +1,75 @@
+Making files for constellation lines, with well-known identifiers.
+Read catalog that contains synonymous identifiers.
+Reading file:C:\johanley\ProjectsPhoton\constellation-lines\input\os-bright-star-catalog-hip.utf8
+  ID missing at [196]:  55597  11_23_21.4314939  -64_57_17.032405  2.9817082400  -1.1336739246    8.08   -22.60     7.03    19.3   0.31   0.32   0.38   0.39   0.36   2.8  5.09             B5 -0.061 C 11234-6457  99103                                     Mus BHHAAAAACAAAAACB-BBBBB----H 
+  ID missing at [189]: 103571  20_59_05.1767509   04_17_41.929360  5.4938002846   0.0749615489   17.68  -116.44  -152.18     8.0   1.17   0.69   1.33   1.47   0.71   0.3  5.24            G0V  0.457 C 20591+0418                                            Equ BHHAAAAACAAAAACB-BBBB-----H 
+  ID missing at [196]: 103571  20_59_05.1767509   04_17_41.929360  5.4938002846   0.0749615489   17.68  -116.44  -152.18     8.0   1.17   0.69   1.33   1.47   0.71   0.3  5.24            G0V  0.457 C 20591+0418                                            Equ BHHAAAAACAAAAACB-BBBB-----H 
+  ID missing at [196]: 111546  22_35_52.2843932   39_38_03.628485  5.9161050695   0.6917497516    1.51     0.04    -5.20   -11.0   1.04   0.93   1.31   1.53   1.28   0.9  5.73           B1Ve -0.160 C 22358+3937 214167                                     Lac BHHAAAAACAAAAACB-BBBBB----H 
+  ID missing at [196]: 114167  23_07_14.8065666  -50_41_11.848273  6.0530059452  -0.8846484846   21.88   -32.78   -24.94     3.9   0.68   0.92   1.14   1.07   0.79   0.3  5.81 1  F6.5IV-V+..  0.486 C 23072-5041 218268                                     Gru BHHAAAAACAAAAACBBBBBBB----H 
+  ID missing at [189]: 115125  23_19_06.3699997  -12_32_43.000000  6.1047522983  -0.2189564028 44.5698  306.661 -104.798   10.89               0.0293   0.03  0.024  0.18  5.19            K2V  0.895                                                         Aqr BHHBBFFFFBBFFFFB-BB-------H 
+  ID missing at [196]: 115125  23_19_06.3699997  -12_32_43.000000  6.1047522983  -0.2189564028 44.5698  306.661 -104.798   10.89               0.0293   0.03  0.024  0.18  5.19            K2V  0.895                                                         Aqr BHHBBFFFFBBFFFFB-BB-------H 
+Adding Mira manually, for HR 681
+---   Output file with HR identifiers.   ---
+Reading input file that has ad hoc star identifiers.
+Reading file:C:\johanley\ProjectsPhoton\constellation-lines\input\constellation-lines.utf8
+Normalize the ad hoc identifiers to HR identifiers.
+Use identifier: HR
+Applying some corrections to the core data.
+Use identifier: HR
+  Correcting error in core data. Changing HR=545 to HR=546
+  Correcting error in core data. Changing HR=2890 to HR=2891
+  Correcting error in core data. Changing HR=2472 to HR=2473
+  Correcting error in core data. Changing HR=2472 to HR=2473
+  Correcting error in core data. Changing HR=301 to HR=1302
+Use identifier: HR
+Checking for blank identifiers.
+Number missing the target id: 0
+File written (UTF-8): C:\johanley\ProjectsPhoton\constellation-lines\output\constellation-lines-hr.utf8
+Number of constellations with lines: 86
+---   Output file with HIP identifiers.   ---
+Reading input file that has ad hoc star identifiers.
+Reading file:C:\johanley\ProjectsPhoton\constellation-lines\input\constellation-lines.utf8
+Normalize the ad hoc identifiers to HR identifiers.
+Use identifier: HR
+Applying some corrections to the core data.
+Use identifier: HR
+  Correcting error in core data. Changing HR=545 to HR=546
+  Correcting error in core data. Changing HR=2890 to HR=2891
+  Correcting error in core data. Changing HR=2472 to HR=2473
+  Correcting error in core data. Changing HR=2472 to HR=2473
+  Correcting error in core data. Changing HR=301 to HR=1302
+Use identifier: HIP
+Checking for blank identifiers.
+Number missing the target id: 0
+File written (UTF-8): C:\johanley\ProjectsPhoton\constellation-lines\output\constellation-lines-hip.utf8
+Number of constellations with lines: 86
+---   Output file with HD identifiers.   ---
+Reading input file that has ad hoc star identifiers.
+Reading file:C:\johanley\ProjectsPhoton\constellation-lines\input\constellation-lines.utf8
+Normalize the ad hoc identifiers to HR identifiers.
+Use identifier: HR
+Applying some corrections to the core data.
+Use identifier: HR
+  Correcting error in core data. Changing HR=545 to HR=546
+  Correcting error in core data. Changing HR=2890 to HR=2891
+  Correcting error in core data. Changing HR=2472 to HR=2473
+  Correcting error in core data. Changing HR=2472 to HR=2473
+  Correcting error in core data. Changing HR=301 to HR=1302
+Use identifier: HD
+Checking for blank identifiers.
+Number missing the target id: 0
+File written (UTF-8): C:\johanley\ProjectsPhoton\constellation-lines\output\constellation-lines-hd.utf8
+Number of constellations with lines: 86
+Reading input file that has ad hoc star identifiers.
+Reading file:C:\johanley\ProjectsPhoton\constellation-lines\input\constellation-lines.utf8
+Normalize the ad hoc identifiers to HR identifiers.
+Use identifier: HR
+Applying some corrections to the core data.
+Use identifier: HR
+  Correcting error in core data. Changing HR=545 to HR=546
+  Correcting error in core data. Changing HR=2890 to HR=2891
+  Correcting error in core data. Changing HR=2472 to HR=2473
+  Correcting error in core data. Changing HR=2472 to HR=2473
+  Correcting error in core data. Changing HR=301 to HR=1302
+Magnitude limit (Hipparcos Vmag) of all stars in all polylines: 5.42
+Done.
