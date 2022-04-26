@@ -2,10 +2,10 @@
 
 Data for creating lines joining bright stars, used to create stick figures in the sky representing the constellations.
 
-There are no standard constellation figures. It's largely a matter of taste.
+There are no standard constellation stick figures. It's largely a matter of taste.
 
-The output of this project are several text files with structured data.
-Each file expresses the same figures, but uses different identifiers for the stars.
+The <a href='https://github.com/johanley/constellation-lines/tree/master/output'>outputs</a> of this project are several text files with structured data.
+Each file expresses the same stick figures, but uses different identifiers for the stars.
 The identifiers are taken from these widely used catalogs:
  * HR: Yale Bright Star Catalog
  * HD: Henry Draper catalog 
