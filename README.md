@@ -24,6 +24,9 @@ For Cancer, the stick figure is implemented as two lines, each represented as a 
 
 The integers represent identifiers in an underlying catalog (in this case, the Henry Draper catalog).
 
+The magnitude limit of all stars used in all stick figures is stated at the end of the 
+<a href='https://github.com/johanley/constellation-lines/blob/master/output/logging-output.utf8'>logging output</a>. 
+
 This project takes as its core input a data file that has been used in other projects.
 That data file has a defect: it uses ad hoc identifiers for the stars, which are not related directly to any catalog.
 This project amends that defect.
