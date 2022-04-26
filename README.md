@@ -22,7 +22,7 @@ For Cancer, the stick figure is implemented as two lines, each represented as a 
 * [74739, 74198, 74442, 76756]
 * [69267, 74442]
 
-The integers represent identifiers in an underlying catalog (in this case, the Hipparcos catalog).
+The integers represent identifiers in an underlying catalog (in this case, the Henry Draper catalog).
 
 This project takes as its core input a data file that has been used in other projects.
 That data file has a defect: it uses ad hoc identifiers for the stars, which are not related directly to any catalog.
