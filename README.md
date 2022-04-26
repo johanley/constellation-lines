@@ -22,7 +22,8 @@ For Cancer the stick figure is implemented using two series of line segments, ea
 * [74739, 74198, 74442, 76756] - joins four stars (using three line segments)
 * [69267, 74442] - joins two stars
 
-The integers represent identifiers in an underlying catalog (in this case, the Henry Draper catalog).
+The integers are identifiers in an underlying catalog (in this case, the Henry Draper catalog).
+Of course, in order to actually plot the stick figures, you will need to calculate the positions of the corresponding stars, according to your context. 
 
 The magnitude limit of all stars used in all stick figures is stated at the end of the 
 <a href='https://github.com/johanley/constellation-lines/blob/master/output/logging-output.utf8'>logging output</a>. 
