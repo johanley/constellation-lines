@@ -108,8 +108,12 @@ public final class MakeAll {
     String outputFile = DataFileReader.outputFile(fileName);
     List<String> outputLines = new ArrayList<>();
     for(String constellation : data.keySet()) {
+      String outputLine = constellation + " = ";
       List<List<Integer>> polyline = data.get(constellation);
-      outputLines.add(constellation + " = " + polyline + ";");
+      for(List<Integer> line : polyline) {
+        outputLine = outputLine + line + ";";
+      }
+      outputLines.add(outputLine.substring(0, outputLine.length()-1)); //chop off the last ';'
     }
     writeOutputFile(outputFile, outputLines);
   }
